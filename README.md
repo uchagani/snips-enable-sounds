@@ -1,6 +1,6 @@
 # snips-enable-sounds
 
-Automatically enable feedback sounds for [snips.ai](!https://snips.ai/) at reboot.
+Automatically enable feedback sounds for [snips.ai](https://snips.ai/) at reboot.
 
 ### Steps
 ```bash
