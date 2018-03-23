@@ -4,6 +4,7 @@ Automatically enable feedback sounds for [snips.ai](https://snips.ai/) at reboot
 
 ### Steps
 ```bash
+sudo apt-get install mosquitto-clients
 git clone https://github.com/uchagani/snips-enable-sounds.git
 cd snips-enable-sounds
 sudo chmod +x snips-enable-feedback-sound.sh
