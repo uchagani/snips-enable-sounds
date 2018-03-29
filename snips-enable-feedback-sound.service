@@ -1,7 +1,7 @@
 [Unit]
 Description=SnipsFeedbackSound
-Requires=mosquitto.service snips-analytics.service snips-dialogue.service snips-hotword.service snips-asr.service snips-queries.service snips-audio-server.service snips-feedback-sound.service snips-tts.service
-After=mosquitto.service snips-analytics.service snips-dialogue.service snips-hotword.service snips-asr.service snips-queries.service snips-audio-server.service snips-feedback-sound.service snips-tts.service
+Requires=mosquitto.service snips-analytics.service snips-dialogue.service snips-hotword.service snips-asr.service snips-nlu.service snips-audio-server.service snips-tts.service
+After=mosquitto.service snips-analytics.service snips-dialogue.service snips-hotword.service snips-asr.service snips-nlu.service snips-audio-server.service snips-tts.service
 
 [Service]
 Type=simple
