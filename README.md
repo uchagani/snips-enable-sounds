@@ -2,6 +2,10 @@
 
 Automatically enable feedback sounds for [snips.ai](https://snips.ai/) at reboot.
 
+## Deprecated
+
+This is no longer needed as of version 0.56.4 of snips
+
 ### Steps
 ```bash
 sudo apt-get install mosquitto-clients
